@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build image
-        run: docker build -t inleed-dynamic-dns .
+        run: docker build -t j3sb/inleed-dynamic-dns .
 
       - name: Publish image
         run: docker push j3sb/inleed-dynamic-dns
