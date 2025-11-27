@@ -20,4 +20,4 @@ jobs:
         run: docker build -t inleed-dynamic-dns .
 
       - name: Publish image
-        run: docker push inleed-dynamic-dns j3sb/inleed-dynamic-dns
+        run: docker push j3sb/inleed-dynamic-dns
